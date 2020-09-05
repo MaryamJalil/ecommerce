@@ -1,0 +1,37 @@
+{
+  "name": "petstore",
+  "version": "1.0.0",
+  "description": "fullstack MERN ecommerce",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server",
+    "server": "nodemon server"
+  },
+  "keywords": [
+    "ecommerce"
+  ],
+  "author": "Luis Febro & Ryan Dhungel",
+  "license": "ISC",
+  "dependencies": {
+    "@sendgrid/mail": "^6.4.0",
+    "braintree": "^2.21.0",
+    "cookie-parser": "^1.4.4",
+    "cors": "^2.8.5",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-jwt": "^5.3.1",
+    "express-validator": "^5.3.1",
+    "formidable": "^1.2.1",
+    "jsonwebtoken": "^8.5.1",
+    "lodash": "^4.17.15",
+    "mongoose": "^5.10.3",
+    "morgan": "^1.9.1",
+    "uninstall": "0.0.0",
+    "uuid": "^3.3.3"
+  },
+  "devDependencies": {
+    "concurrently": "^5.0.0",
+    "nodemon": "^1.19.4"
+  }
+}
